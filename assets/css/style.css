@@ -9,7 +9,7 @@
     align-content: space-between;
     background-color: #FFFFFF;
     padding-top: 50px;
-    position: sticky;
+    position: fixed;
     width: 100%;
     border-bottom:#7391AB;
     border-bottom-style: ridge;
@@ -71,7 +71,25 @@ a {
 
 .mid{
     /* background-color: blue; */
-    padding: 25%;
+    margin: 25%;
+}
+.mid #photo{
+    background-color: #1A2E34;
+    position: relative;
+    border: black 2px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    top: 0; left: 0;
+    
+    
+}
+#profilephoto{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    
 }
 
 .bottom{
