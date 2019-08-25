@@ -20,6 +20,27 @@
     list-style: none;
 }
 
+a {
+    /* background-color: red; */
+    color: grey;
+    /* padding: 1em 1.5em; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  a:active {
+    background-color: black;
+  }
+  
+  a:visited {
+    background-color: #ccc;
+  }
+
 .top{
     display: flex;
     flex-direction: column;
