@@ -17,6 +17,7 @@
 .navbar li{
     margin-right: 5%;
     position: relative;
+    list-style: none;
 }
 
 .top{
