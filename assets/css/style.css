@@ -13,6 +13,7 @@
     width: 100%;
     border-bottom:#7391AB;
     border-bottom-style: ridge;
+    z-index: 1;
 }
 .navbar li{
     margin-right: 5%;
@@ -71,22 +72,22 @@ a {
 
 .mid{
     /* background-color: blue; */
-    margin: 25%;
+    padding: 30%;
+    margin: 0 auto;
+    position: relative;
 }
 .mid #photo{
     background-color: #1A2E34;
-    position: relative;
+    position: absolute;
     border: black 2px;
     border-radius: 50%;
     height: 250px;
     width: 250px;
     overflow: hidden;
-    top: 0; left: 0;
-    
-    
+    top: 5%; left: 5%;
 }
 #profilephoto{
-    position: absolute;
+    /* position: absolute; */
     width: 250px;
     height: 250px;
     
