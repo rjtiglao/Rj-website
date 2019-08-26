@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: center;
     align-content: space-between;
-    background-color: #FFFFFF;
+    background-color: #C7D1E5;
     padding-top: 50px;
     position: fixed;
     width: 100%;
@@ -60,18 +60,18 @@ a {
     margin-left: 25%;
 }
 .top p{
-    margin-left: 25%;
+    margin-left: 30%;
 }
 
 .line{
     border: 1px grey solid;
     position: absolute;
     box-shadow: 10px 10px 8px black;
-    width: 40%;
+    left: 30%;
+    width: 700px;
     border-radius: 30px;
-    background-color: #1A2E34;
     background-blend-mode: color;
-    background: linear-gradient(to bottom right,#888888,20%,#1A2E34);
+    background: linear-gradient(to bottom right,#888888,25%,rgba(26, 46, 52, 0.36));
 }
 
 .mid{
@@ -79,8 +79,10 @@ a {
     /* padding: 5%; */
     margin: 0 auto;
     position: relative;
-    background-color: #F8F9FF;
+    /* background-color: #C7D1E5; */
+    background-image: radial-gradient(circle,white,#C7D1E5);
     overflow: hidden;
+    border-bottom: solid 4px #C7D1E5;
 }
 
 .mid #photo{
@@ -91,12 +93,12 @@ a {
     height: 250px;
     width: 250px;
     overflow: hidden;
-    top: 10%; left: 15%;
+    top: 10%; left: 20%;
 }
 .mid #eduphoto{
     position: absolute;
-    height: 85%;
-    width: 60%;
+    height: 65%;
+    width: 50%;
     bottom: 0; right: 0;
     z-index: 0;
     opacity: 0.5;
@@ -106,18 +108,17 @@ a {
     /* position: absolute; */
     width: 250px;
     height: 250px;
+  
     
 }
 
 #bio{
     position: relative;
     background-color: rgba(115, 145, 171, 0.36);
-    /* background-color: #7391AB; */
     border-radius: 25%;
     padding: 100px;
     width: 500px;
-    /* bottom: 200px; left: 50px; */
-    left: 35%; top: 50px;
+    left: 45%; top: 50px;
     line-height: 150%;
     z-index: 1;
 }
@@ -132,14 +133,11 @@ a {
 #bio2{
     position: relative;
     background-color: rgba(115, 145, 171, 0.36);
-    /* background-color: #7391AB; */
     border-radius: 25%;
-    /* border: solid grey;  */
     padding: 100px;
     width: 500px;
-    /* bottom: 200px; left: 50px; */
     line-height: 150%;
-    left: 8%; bottom: 50px;
+    left: 12%; bottom: 50px;
     z-index: 1;
 }
 
