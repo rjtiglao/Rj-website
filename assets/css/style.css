@@ -13,7 +13,7 @@
     width: 100%;
     border-bottom:#7391AB;
     border-bottom-style: ridge;
-    z-index: 1;
+    z-index: 5;
 }
 .navbar li{
     margin-right: 5%;
@@ -46,24 +46,28 @@ a {
     justify-content: center;
     align-content: center;
     background-color: red;
+    position: relative;
     padding: 400px;
     background-image: url("../media/dark-tech.jpg");
     background-size: 100%;
     color: white;
     font-size: 200%;
     /* border-style: outset; */
+    border-bottom: solid #7391AB;
 
 }
 .top h1{
-    margin-left: 30%;
+    margin-left: 25%;
 }
 .top p{
-    margin-left: 35%;
+    margin-left: 25%;
 }
 
 .line{
     border: 1px grey solid;
+    position: absolute;
     box-shadow: 10px 10px 8px black;
+    width: 40%;
     border-radius: 30px;
     background-color: #1A2E34;
     background-blend-mode: color;
@@ -72,25 +76,71 @@ a {
 
 .mid{
     /* background-color: blue; */
-    padding: 30%;
+    /* padding: 5%; */
     margin: 0 auto;
     position: relative;
+    background-color: #F8F9FF;
+    overflow: hidden;
 }
+
 .mid #photo{
     background-color: #1A2E34;
     position: absolute;
-    border: black 2px;
+    border: black 2px solid;
     border-radius: 50%;
     height: 250px;
     width: 250px;
     overflow: hidden;
-    top: 5%; left: 5%;
+    top: 10%; left: 15%;
+}
+.mid #eduphoto{
+    position: absolute;
+    height: 85%;
+    width: 60%;
+    bottom: 0; right: 0;
+    z-index: 0;
+    opacity: 0.5;
+
 }
 #profilephoto{
     /* position: absolute; */
     width: 250px;
     height: 250px;
     
+}
+
+#bio{
+    position: relative;
+    background-color: rgba(115, 145, 171, 0.36);
+    /* background-color: #7391AB; */
+    border-radius: 25%;
+    padding: 100px;
+    width: 500px;
+    /* bottom: 200px; left: 50px; */
+    left: 35%; top: 50px;
+    line-height: 150%;
+    z-index: 1;
+}
+
+#bio h1{
+    top: 0; 
+}
+
+#bio p{
+    bottom: 20px ;
+}
+#bio2{
+    position: relative;
+    background-color: rgba(115, 145, 171, 0.36);
+    /* background-color: #7391AB; */
+    border-radius: 25%;
+    /* border: solid grey;  */
+    padding: 100px;
+    width: 500px;
+    /* bottom: 200px; left: 50px; */
+    line-height: 150%;
+    left: 8%; bottom: 50px;
+    z-index: 1;
 }
 
 .bottom{
@@ -113,5 +163,6 @@ footer{
     flex-direction: row;
     justify-content: center;
     padding: 50px;
+    min-height: 100%;
 
 }
