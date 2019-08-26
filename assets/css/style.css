@@ -80,9 +80,18 @@ a {
     margin: 0 auto;
     position: relative;
     /* background-color: #C7D1E5; */
-    background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
+    background-image: linear-gradient(to right,#0A1719,#bdc3c7,#0A1719);
     overflow: hidden;
     /* border-bottom: solid 4px #C7D1E5; */
+}
+.mid #eduphoto{
+    position: absolute;
+    height: 65%;
+    width: 50%;
+    bottom: 0; right: 0;
+    z-index: 0;
+    opacity: 0.5;
+
 }
 
 .mid #photo{
@@ -133,45 +142,40 @@ a {
     z-index: 2;
 }
 
-.bottom{
+/* .bottom{
     display: flex;
     flex-direction: column;
     position: relative;
-    background-image: linear-gradient(to right,#bdc3c7,#2c3e50);
-}
+    background-image: linear-gradient(to right,#0A1719,#bdc3c7,#0A1719);
+    padding: 20%;
 
-.bottom #eduphoto{
+}
+.bottom div{
+    top: 0; left: 0;
     position: absolute;
-    height: 65%;
-    width: 50%;
-    bottom: 0; right: 0;
-    z-index: 0;
-    opacity: 0.5;
-
-}
-#bio3{
-    position: relative;
-    background-color: rgba(115, 145, 171, 0.36);
-    border-radius: 25%;
     padding: 100px;
-    width: 500px;
-    line-height: 150%;
-    left: 45%; top: 0;
-    /* top:0px; right: 15%; */
-    z-index: 2;
-}
+    line-height: 5%;
+    background-color: red;
 
-#bio4{
-    position: relative;
-    background-color: rgba(115, 145, 171, 0.36);
-    border-radius: 25%;
+} */
+
+.bottom {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: linear-gradient(to right,#0A1719,#bdc3c7,#0A1719);
     padding: 100px;
-    width: 500px;
-    line-height: 150%;
-    left: 12%; bottom:100px ;
-    z-index: 2;
-}
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
 
+  .bottom .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 100px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
 
 footer{
     display: flex;
