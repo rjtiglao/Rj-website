@@ -121,6 +121,12 @@ a {
     top:0;
     font-size: 50px;
 }
+#bio h2{
+    top:0;
+    font-size: 25px;
+    font-style: italic;
+}
+
 
 #bio p{
     bottom: 20px ;
@@ -136,6 +142,32 @@ a {
     z-index: 2; 
 }
     */
+.mid-bot {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #1B1B1B;
+    /* background-image: linear-gradient(to right,#0A1718,#0A1719,#bdc3c7); */
+    /* padding: 100px;
+    width: 100%;
+    left:0; */
+    /* grid-column-gap: 25px; */
+    /* grid-row-gap: 25px; */
+}
+
+.mid-bot .grid-item {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 200px;
+    font-size: 30px;
+    text-align: center;
+    /* box-shadow: 10px 10px 8px black; */
+}
+
+
+
+
 
 .bottom {
     position: relative;
