@@ -149,7 +149,7 @@ a {
     position: relative;
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #595959;
+    background-color: #262626;
     padding-top: 50px;
     padding-bottom: 150px;
     padding-left: 500px;
@@ -230,3 +230,20 @@ footer{
     background-color: #F5F5F5;
 
 }
+
+
+
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.skills {
+  text-align: right; /* Right-align text */ 
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
