@@ -78,9 +78,7 @@ a {
     position: relative;
     color: #F5F5F5;
     background-color: #1B1B1B;
-    /* background-image: linear-gradient(to right,#0A1718,#0A1719,#bdc3c7); */
     overflow: hidden;
-    /* border-bottom: solid 4px #C7D1E5; */
 }
 .mid #eduphoto{
     position: absolute;
@@ -109,7 +107,6 @@ a {
 
 #bio{
     position: relative;
-    /* background-color: rgba(245, 245, 245, 0.36); */
     padding: 100px;
     width: 500px;
     left: 10%; top: 100px;
@@ -131,53 +128,35 @@ a {
 #bio p{
     bottom: 20px ;
 }
-/* #bio2{
-    position: relative;
-    /* background-color: rgba(245, 245, 245, 0.75); */
-    /* border-radius: 25%; */
-    /* padding: 100px;
-    width: 500px;
-    line-height: 200%;
-    left: 50%; bottom: 50px;
-    z-index: 2; 
-}
-    */
+
 .mid-bot {
     position: relative;
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #1B1B1B;
-    /* background-image: linear-gradient(to right,#0A1718,#0A1719,#bdc3c7); */
-    /* padding: 100px;
-    width: 100%;
-    left:0; */
-    /* grid-column-gap: 25px; */
-    /* grid-row-gap: 25px; */
 }
 
 .mid-bot .grid-item {
     position: relative;
     background-color: rgba(255, 255, 255, 0.8);
-    /* border: 1px solid rgba(0, 0, 0, 0.8); */
     padding: 200px;
     font-size: 30px;
     text-align: center;
-    /* box-shadow: 10px 10px 8px black; */
 }
-
-
-
 
 
 .bottom {
     position: relative;
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #1B1B1B;
-    /* background-image: linear-gradient(to right,#0A1718,#0A1719,#bdc3c7); */
-    padding: 100px;
-    grid-column-gap: 25px;
-    grid-row-gap: 25px;
+    grid-template-columns: auto auto;
+    background-color: #595959;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 500px;
+    padding-right:500px;
+    /* grid-column-gap: 25px; */
+    grid-row-gap: 125px;
+    grid-area: auto;
 }
 
 .bottom .grid-item {
@@ -185,6 +164,10 @@ a {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 100px;
+    width: 25%;
+    height: 50%;
+    /* width: 400px;
+    height: 100%; */
     font-size: 30px;
     text-align: center;
     box-shadow: 10px 10px 8px black;
@@ -198,30 +181,45 @@ a {
     background-color: rgba(0, 0, 0, 0.45);
     width: 100%;
     left:0; top: 40%;
-
     color: white;
     font-size: 100%;
 }
 #interviews{
     
 }
-
-#culture{
-    
+#interviews p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    left:0; top: 40%;
+    color: white;
+    font-size: 100%;
 }
 
 #projects{
     
 }
 
+#projects p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    left:0; top: 40%;
+    color: white;
+    font-size: 100%;
+}
 #knowledge{
     
 }
 
-#tools{
-    
+#knowledge p{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    left:0; top: 40%;
+    color: white;
+    font-size: 100%;
 }
-
 
 footer{
     display: flex;
