@@ -1,5 +1,14 @@
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Bree Serif', serif;
+font-family: 'Fira Sans Condensed', sans-serif; */
 *{
     margin: auto 0;
+}
+p,a{
+    font-family: 'Cabin', sans-serif;
+}
+h1{
+    font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .navbar{
@@ -9,11 +18,12 @@
     align-content: space-between;
     background-color: whitesmoke;
     padding-top: 50px;
-    position: fixed;
-    width: 100%;
+    /* position: fixed; */
+    /* width: 100%; */
     border-bottom:whitesmoke;
     border-bottom-style: ridge;
     z-index: 5;
+    box-shadow: 10px 10px 8px black;
 }
 .navbar li{
     margin-right: 5%;
@@ -132,52 +142,64 @@ a {
 .mid-bot {
     position: relative;
     display: grid;
-    grid-template-columns: auto auto auto;
+    /* grid-column: auto auto auto; */
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 0;
     background-color: #1B1B1B;
+    border: solid 1px white;
 }
 
 .mid-bot .grid-item {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 200px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
     font-size: 30px;
     text-align: center;
 }
 
-#tools{
+#languages{
     position: relative;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-row-gap: 10px;
-    grid-column-gap: 25px;
+    grid-column: auto;
+    justify-content: center;
+    top: 0;
 }
 
-#toolContainer{
-    position: absolute;
+#langContainer{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 25px;
-    top:0; left: 15px;
     width: 100%;
+    height: 100%;
     grid-row-gap: 10px;
 }
-.html {
-    width: 100%; 
-    background-color: #4CAF50; 
-    /* border-bottom-right-radius: 50%; */
+
+#skillss{
+    position: relative;
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
 }
-.css {
-    width: 80%; 
-    background-color: #2196F3;
-} 
-.js {
-    width: 65%; 
-    background-color: #f44336;
-} 
-.php {
-    width: 60%; 
-    background-color: #808080;
-} 
+
+#skillContainer{
+  
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 25px;
+    height: 100%;
+    width: 100%;
+    grid-row-gap: 5px;
+}
+
+.skill-image{
+
+    /* position: absolute; */
+   
+    height: 80px;
+    width: 100px;
+  
+}
+
 
 .bottom {
     position: relative;
@@ -260,8 +282,19 @@ footer{
     flex-direction: row;
     justify-content: center;
     padding: 50px;
-    min-height: 100%;
+    /* min-height: 100%; */
     background-color: #F5F5F5;
-
+    /* position: absolute; */
+    /* width: 100%; */
+    bottom: 0;
 }
 
+
+
+
+/* Construction */
+
+.construction{
+    position: absolute;
+    top: 10%;
+}
