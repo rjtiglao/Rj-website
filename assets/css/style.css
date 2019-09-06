@@ -3,6 +3,7 @@ font-family: 'Bree Serif', serif;
 font-family: 'Fira Sans Condensed', sans-serif; */
 *{
     margin: auto 0;
+    padding: auto 0;
 }
 p,a{
     font-family: 'Cabin', sans-serif;
@@ -143,14 +144,7 @@ a {
     color: #F5F5F5;
     position: relative;
     display: grid;
-    /* align-content: center; */
-    /* padding: 25%; */
-    /* grid-template-columns: 2fr 1fr; */
     grid-template-columns: 1fr auto 2fr;
-    /* grid-row-gap: 10px; */
-    grid-column-gap: 2px;
-    /* background-color: whitesmoke; */
-    /* background-blend-mode: darken; */
     background: linear-gradient(0deg, rgba(148,148,149,1) 0%, rgba(46,46,62,1) 59%, rgba(27,27,27,1) 100%);
 }
 
@@ -160,41 +154,42 @@ a {
 }
 
 #languages{
-    display: grid;
-    grid-column: auto;
-    justify-content: center;
     margin-top: 1%;
+    margin-left: 5%;
 }
 
 #langContainer{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 25px;
+    grid-template-columns: auto auto auto;
     width: 100%;
     height: 100%;
-    grid-row-gap: 10px;
+    grid-row-gap: 20px;
 }
 
 #skillss{
-    
-    display: grid;
-    grid-column: auto;
-    /* justify-content: center; */
+    margin-left: 5%;
 }
 
 #skillContainer{
     display: grid;
     grid-template-columns: auto auto auto auto ;
-    grid-column-gap: 25px;
-    height: 100%;
-    width: 100%;
-    grid-row-gap: 5px;
     
 }
 
 .skill-image{
     height: 60px;
     width: 90px; 
+}
+.skill-image:hover {
+    background-color: #555;
+  }
+  
+.skill-image:active {
+    background-color: black;
+}
+  
+.skill-image:visited {
+    background-color: #ccc;
 }
 
 .bottom {
