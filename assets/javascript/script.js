@@ -1,23 +1,23 @@
-let skills = ["./assets/media/icons/tools/ami.png","./assets/media/icons/tools/ansible.png","./assets/media/icons/tools/apache.png","./assets/media/icons/tools/api.png","./assets/media/icons/tools/automox.png","./assets/media/icons/tools/bootstrap.png","./assets/media/icons/tools/crontab.png","./assets/media/icons/tools/devtools.png","./assets/media/icons/tools/docker.png","./assets/media/icons/tools/ec2.png","./assets/media/icons/tools/express.png","./assets/media/icons/tools/firebase.png","./assets/media/icons/tools/github.png","./assets/media/icons/tools/googleFonts.png","./assets/media/icons/tools/iam-aws.png","./assets/media/icons/tools/jenkins.png","./assets/media/icons/tools/mysql.png","./assets/media/icons/tools/nagios.png","./assets/media/icons/tools/newrelic.png","./assets/media/icons/tools/nginx.png","./assets/media/icons/tools/postman.png","./assets/media/icons/tools/puppet.png","./assets/media/icons/tools/route53.png","./assets/media/icons/tools/s3.png","./assets/media/icons/tools/saltstack.png","./assets/media/icons/tools/selenium.png","./assets/media/icons/tools/slackBot.png","./assets/media/icons/tools/splunk.png","./assets/media/icons/tools/stackoverflow.png","./assets/media/icons/tools/wpengine.png"];
+let skills = ["./assets/media/icons/tools/tools/ami.ico","./assets/media/icons/tools/tools/ansible.ico","./assets/media/icons/tools/tools/apache.ico","./assets/media/icons/tools/tools/api.ico","./assets/media/icons/tools/tools/automox.ico","./assets/media/icons/tools/tools/bootstrap.ico","./assets/media/icons/tools/tools/crontab.ico","./assets/media/icons/tools/tools/devtools.ico","./assets/media/icons/tools/tools/docker.ico","./assets/media/icons/tools/tools/ec2.ico","./assets/media/icons/tools/tools/express.ico","./assets/media/icons/tools/tools/firebase.ico","./assets/media/icons/tools/tools/github.ico","./assets/media/icons/tools/tools/googleFonts.ico","./assets/media/icons/tools/tools/iam_aws.ico","./assets/media/icons/tools/tools/jenkins.ico","./assets/media/icons/tools/tools/mysql.ico","./assets/media/icons/tools/tools/nagios.ico","./assets/media/icons/tools/tools/newrelic.ico","./assets/media/icons/tools/tools/nginx.ico","./assets/media/icons/tools/tools/postman.ico","./assets/media/icons/tools/tools/puppet.ico","./assets/media/icons/tools/tools/route53.ico","./assets/media/icons/tools/tools/s3.ico","./assets/media/icons/tools/tools/saltstack.ico","./assets/media/icons/tools/tools/selenium.ico","./assets/media/icons/tools/tools/slackBot.ico","./assets/media/icons/tools/tools/splunk.ico","./assets/media/icons/tools/tools/stackoverflow.ico","./assets/media/icons/tools/tools/wpengine.ico"];
 let lang = ["./assets/media/icons/languages/c++.png","./assets/media/icons/languages/html5.png","./assets/media/icons/languages/css.png","./assets/media/icons/languages/javascript.png","./assets/media/icons/languages/jquery.png","./assets/media/icons/languages/python.png","./assets/media/icons/languages/c++.png","./assets/media/icons/languages/swift.png","./assets/media/icons/languages/regex.png","./assets/media/icons/languages/ruby.png","./assets/media/icons/languages/bash.png"];
 let framework = ["./assets/media/icons/framework/nodejs.png","./assets/media/icons/framework/RoR.png"];
-let tools = ["./assets/media/icons/solutions/1password.png",
-"./assets/media/icons/solutions/aws.png",
-"./assets/media/icons/solutions/duo.png",
-"./assets/media/icons/solutions/gitlab.png",
-"./assets/media/icons/solutions/googleApps.png",
-"./assets/media/icons/solutions/gsuite.png",
-"./assets/media/icons/solutions/jamf.png",
-"./assets/media/icons/solutions/jira.png",
-"./assets/media/icons/solutions/jumpcloud.png",
-"./assets/media/icons/solutions/lucidcharts.png",
-"./assets/media/icons/solutions/okta.png",
-"./assets/media/icons/solutions/pivotal-tracker.png",
-"./assets/media/icons/solutions/slack.png",
-"./assets/media/icons/solutions/snow.png",
-"./assets/media/icons/solutions/upwork-sol.png",
-"./assets/media/icons/solutions/wordpress.png",
-"./assets/media/icons/solutions/zoom.png"];
+let tools = ["./assets/media/icons/solutions/solutions/1password.ico",
+"./assets/media/icons/solutions/solutions/aws.ico",
+"./assets/media/icons/solutions/solutions/duo.ico",
+"./assets/media/icons/solutions/solutions/gitlab.ico",
+"./assets/media/icons/solutions/solutions/googleApps.ico",
+"./assets/media/icons/solutions/solutions/gsuite.ico",
+"./assets/media/icons/solutions/solutions/jamf.ico",
+"./assets/media/icons/solutions/solutions/jira.ico",
+"./assets/media/icons/solutions/solutions/jumpcloud.ico",
+"./assets/media/icons/solutions/solutions/lucidcharts.ico",
+"./assets/media/icons/solutions/solutions/okta.ico",
+"./assets/media/icons/solutions/solutions/pivotal_tracker.ico",
+"./assets/media/icons/solutions/solutions/slack.ico",
+"./assets/media/icons/solutions/solutions/snow.ico",
+"./assets/media/icons/solutions/solutions/upwork_sol.ico",
+"./assets/media/icons/solutions/solutions/wordpress.ico",
+"./assets/media/icons/solutions/solutions/zoom.ico"];
 
 
 
